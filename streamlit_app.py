@@ -31,7 +31,7 @@ try:
     back_from_function = get_fruityvice_data(fruit_choice)
     st.dataframe(back_from_function)
 
-st.header("The Fruit load list contains:|")
+st.header("The Fruit load list contains:")
 def get_fruit_load_list():
      with my_cnx.cursor() as my_cur:
           my_cur.execute("select * from fruit_load_list")
