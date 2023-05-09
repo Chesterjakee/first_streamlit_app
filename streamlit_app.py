@@ -3,8 +3,6 @@ import pandas
 import requests
 import snowflake.connector
 from urllib.error import URLError
-import docx
-from docx.shared
 
 streamlit.title('HAPPY 2ND MONTHSARY')
 streamlit.header(' BABY BOYFRIEND ASAWA')
